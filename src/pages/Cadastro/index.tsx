@@ -1,10 +1,11 @@
-import CadastroPessoal from "./CadastroPessoal";
 import { Logotipo } from "../../components";
+import CadastroEndereco from "./CadastroEndereco.tsx";
+
 export default function Cadastro() {
   return (
     <>
       <Logotipo />
-      <CadastroPessoal />
+      <CadastroEndereco />
     </>
   );
 }
