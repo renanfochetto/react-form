@@ -15,6 +15,16 @@ const CadastroPessoal = () => {
   const aoSubmeter = (dados: FormInputTipos) => {
     console.log(dados);
   }
+
+  function validarEmail(valor: string) {
+    const formatoEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    if(!formatoEmail.test(valor)) {
+      console.error('Endereço de e-mail inválido.');
+      return false;
+    }
+    return true;
+  }
+
   return (
     <>
       <Titulo>Insira alguns dados básicos:</Titulo>
@@ -25,7 +35,7 @@ const CadastroPessoal = () => {
             id="campo-nome"
             placeholder="Digite seu nome completo"
             type="text"
-            {...register('nome')}
+            {...register('nome', {required: true, minLength: 5})}
           />
         </Fieldset>
         <Fieldset>
@@ -34,7 +44,7 @@ const CadastroPessoal = () => {
             id="campo-email"
             placeholder="Insira seu endereço de email"
             type="email"
-            {...register('email')}
+            {...register('email', { required: true, validate: validarEmail })}
 
           />
         </Fieldset>
@@ -44,8 +54,8 @@ const CadastroPessoal = () => {
           <Input
             id="campo-telefone"
             type="text"
-            placeholder="Ex: (DDD) XXXXX-XXXX"
-            {...register('telefone')}
+            placeholder="Ex: (DD) XXXXX-XXXX"
+            {...register('telefone', {pattern: /^\(\d{2}\) \d{4,5}-\d{4}$/})}
 
           />
         </Fieldset>
