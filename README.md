@@ -22,8 +22,6 @@ Neste estágio de desenvolvimento, a Voll possui as seguintes funcionalidades:
 - Formulário de cadastro de Paciente
 - Formulário de cadastro de médicos especialistas
 
-O [Figma dessa aplicação você encontra aqui](https://www.figma.com/file/hsW25fAq36IDzzIxBtpgCd/Voll.med-%7C-React-Hook-Forms?type=design&node-id=57-1388&mode=design).
-
 ## ✔️ Técnicas e tecnologias utilizadas
 
 O projeto utiliza as seguintes tecnologias e bibliotecas:
@@ -64,6 +62,11 @@ npm install
 ```bash
 npm run dev
 ```
+
+## Design
+
+O [Figma dessa aplicação você encontra aqui](https://www.figma.com/file/hsW25fAq36IDzzIxBtpgCd/Voll.med-%7C-React-Hook-Forms?type=design&node-id=57-1388&mode=design).
+
 
 ## 📚 Mais informações do curso
 
