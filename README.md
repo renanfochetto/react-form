@@ -1,4 +1,4 @@
-# Formulários em React
+# <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="30" height="30"> Formulários em React
 Desenvolvido durante o curso de Validação de Formulários em React com React-Hook-Form, na Escola de Tecnologia Alura como parte da formação em React.
 
 ## Voll
