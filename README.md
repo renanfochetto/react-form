@@ -30,6 +30,7 @@ O projeto utiliza as seguintes tecnologias e bibliotecas:
 
 - `React` - Framework JavaScript
 - `Vite` - Build tool para desenvolvimento rápido
+- `React Hook Form`
 - `TypeScript` - Linguagem de programação principal
 - `Styled Components` - Ferramenta de estilização do nosso projeto
 - `Figma` - Para prototipagem do projeto
