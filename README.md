@@ -1,6 +1,7 @@
-![Voll](thumb.png)
+# Formulários em React
+Desenvolvido durante o curso de Validação de Formulários em React com React-Hook-Form, na Escola de Tecnologia Alura como parte da formação em React.
 
-# Voll
+## Voll
 
 A Voll med é um clínica especializada em conectar os profissionais certos aos clientes. Atualmente está na fase de desenvolvimento de seu site e app, que conta com uma grande quantidade de funcionalidades. Uma dessas funcionalidades são os seus formulários, que precisam possuir algum tipo de validação dos dados de seus clientes.
 
@@ -57,8 +58,6 @@ npm run dev
 
 ## 📚 Mais informações do curso
 
-Gostou do projeto e quer conhecer mais?
-
-O design e protótipo deste projeto podem ser encontrados [aqui](https://www.figma.com/file/hsW25fAq36IDzzIxBtpgCd/Voll.med-%7C-React-Hook-Forms?type=design&node-id=57-1388&mode=design). Se você quiser desenvolver este projeto completo nas versões web e mobile, recomendo acessar a Formação [Desenvolva aplicações Web e Mobile com React e React Native](https://cursos.alura.com.br/formacao-aplicacoes-web-mobile-react-react-native)
+O design e protótipo deste projeto podem ser encontrados [aqui](https://www.figma.com/file/hsW25fAq36IDzzIxBtpgCd/Voll.med-%7C-React-Hook-Forms?type=design&node-id=57-1388&mode=design). 
 
 Aproveite o desenvolvimento e aprimoramento da Voll!
