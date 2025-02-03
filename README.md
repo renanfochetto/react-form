@@ -1,5 +1,13 @@
-# <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="30" height="30"> Formulários em React
-Desenvolvido durante o curso de Validação de Formulários em React com React-Hook-Form, na Escola de Tecnologia Alura como parte da formação em React.
+# <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="30" height="30"> React: Gerencie e valide Formulários com React Hook Form
+
+Desenvolvido durante o curso de gerenciamento e aalidação de Formulários em React com React-Hook-Form, na Escola de Tecnologia Alura como parte da formação em React.
+
+## Principais Tópicos
+
+- `Uso de métodos essenciais como useForm, register e handleSubmit`
+- `Aplicação de validações customizadas`
+- `Manipulação de mensagens de erro para fornecer feedback`
+- `Validação de dados de APIs externas e habilite preenchimento automático`
 
 ## Voll
 
